@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" modified="2023-10-04T12:56:04.671Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36" etag="TpOTKMZ2uPbXLOyOedJF" version="21.1.1" type="device">
+  <diagram name="Leht-1" id="Dy6g5swqj7E_ltom46VU">
+    <mxGraphModel dx="555" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4cAenCxfesFsfjSoYDYh-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4cAenCxfesFsfjSoYDYh-1" target="4cAenCxfesFsfjSoYDYh-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4cAenCxfesFsfjSoYDYh-1" value="ALGUS" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4cAenCxfesFsfjSoYDYh-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4cAenCxfesFsfjSoYDYh-3" target="4cAenCxfesFsfjSoYDYh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4cAenCxfesFsfjSoYDYh-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="4cAenCxfesFsfjSoYDYh-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4cAenCxfesFsfjSoYDYh-3" value="for i in range(1, len(raamatu_riiul)" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="341" y="130" width="146" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="4cAenCxfesFsfjSoYDYh-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4cAenCxfesFsfjSoYDYh-4" target="4cAenCxfesFsfjSoYDYh-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4cAenCxfesFsfjSoYDYh-4" value="key = raamatu_riiul[i]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="310" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4cAenCxfesFsfjSoYDYh-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4cAenCxfesFsfjSoYDYh-6" target="4cAenCxfesFsfjSoYDYh-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4cAenCxfesFsfjSoYDYh-6" value="j = i - 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4cAenCxfesFsfjSoYDYh-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4cAenCxfesFsfjSoYDYh-7" target="4cAenCxfesFsfjSoYDYh-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4cAenCxfesFsfjSoYDYh-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4cAenCxfesFsfjSoYDYh-7" target="4cAenCxfesFsfjSoYDYh-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="270" y="590" />
+              <mxPoint x="270" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4cAenCxfesFsfjSoYDYh-7" value="while j &amp;gt;= &amp;amp;&amp;amp; key &amp;lt; raamatu_riiul[j]" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="349" y="520" width="130" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="4cAenCxfesFsfjSoYDYh-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="4cAenCxfesFsfjSoYDYh-8" target="4cAenCxfesFsfjSoYDYh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4cAenCxfesFsfjSoYDYh-8" value="raamatu_riiul[j+1] = raamatu_riiul[j]" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4cAenCxfesFsfjSoYDYh-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4cAenCxfesFsfjSoYDYh-9" target="4cAenCxfesFsfjSoYDYh-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" y="830" />
+              <mxPoint x="590" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4cAenCxfesFsfjSoYDYh-9" value="j -= 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4cAenCxfesFsfjSoYDYh-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="4cAenCxfesFsfjSoYDYh-10" target="4cAenCxfesFsfjSoYDYh-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="662.3529411764706" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="710" y="930" />
+              <mxPoint x="710" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4cAenCxfesFsfjSoYDYh-10" value="raamatu_riiul[j+1] = key" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="354" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4cAenCxfesFsfjSoYDYh-21" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="291" y="555" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4cAenCxfesFsfjSoYDYh-23" value="LÕPP" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="850" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4cAenCxfesFsfjSoYDYh-24" value="False" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="245" y="165" width="50" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
